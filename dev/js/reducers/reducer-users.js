@@ -1,33 +1,31 @@
-/*
- * The users reducer will always return an array of users no matter what
- * You need to return something, so if there are no users then just return an empty array
- * */
-
 export default function () {
-    return [
-        {
-            id: 1,
-            first: "Bucky",
-            last: "Roberts",
-            age: 71,
-            description: "Bucky is a React developer and YouTuber",
-            thumbnail: "http://i.imgur.com/7yUvePI.jpg"
-        },
-        {
-            id: 2,
-            first: "Joby",
-            last: "Wasilenko",
-            age: 27,
-            description: "Joby loves the Packers, cheese, and turtles.",
-            thumbnail: "http://i.imgur.com/52xRlm8.png"
-        },
-        {
-            id: 3,
-            first: "Madison",
-            last: "Williams",
-            age: 24,
-            description: "Madi likes her dog but it is really annoying.",
-            thumbnail: "http://i.imgur.com/4EMtxHB.png"
-        }
-    ]
+  return [
+    {
+      id: 1,
+      first: 'Lucky',
+      last: 'Dobberts',
+      age: 44,
+      description: 'Lucky is very fortunately man',
+      thumbnail:
+        'https://i.picsum.photos/id/151/200/200.jpg?hmac=RsW3eUusYZr48IOrlSs9K5ryBvl6Gh_KtI0cyUSVDX4',
+    },
+    {
+      id: 2,
+      first: 'Bucky',
+      last: 'Dubstep',
+      age: 44,
+      description: 'Bucky is very like dubstep',
+      thumbnail:
+        'https://i.picsum.photos/id/151/200/200.jpg?hmac=RsW3eUusYZr48IOrlSs9K5ryBvl6Gh_KtI0cyUSVDX4',
+    },
+    {
+      id: 3,
+      first: 'Bill',
+      last: 'Willson',
+      age: 44,
+      description: 'Bill is very like to drink',
+      thumbnail:
+        'https://i.picsum.photos/id/151/200/200.jpg?hmac=RsW3eUusYZr48IOrlSs9K5ryBvl6Gh_KtI0cyUSVDX4',
+    },
+  ]
 }
